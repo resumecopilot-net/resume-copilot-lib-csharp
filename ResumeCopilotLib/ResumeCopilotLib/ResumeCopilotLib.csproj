@@ -4,7 +4,23 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.0.0</Version>
-  </PropertyGroup>
 
+    <PackageId>ResumeCopilotLib</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>ResumeCopilot</Authors>
+    <Company>ResumeCopilot</Company>
+    <Description>A lightweight .NET library to interact with ResumeCopilot job search API.</Description>
+    <PackageTags>JobSearch API ResumeCopilot</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/resumecopilot-net/resume-copilot-lib-csharp</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/resumecopilot-net/resume-copilot-lib-csharp</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>true</IncludeSymbols>
+    <IncludeSource>true</IncludeSource>
+
+    <OutputPath>bin\Release</OutputPath>
+  </PropertyGroup>
 </Project>
