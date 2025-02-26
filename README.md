@@ -35,12 +35,7 @@ using ResumeCopilotLib;
 
 var request = new JobSearchRequest
 {
-    Title = "Software Engineer",
-    CompanyName = "Tech Corp",
-    City = "San Francisco",
-    State = "CA",
-    Country = "USA",
-    IsRemote = true,
+    Title = "developer",
     Size = 10
 };
 

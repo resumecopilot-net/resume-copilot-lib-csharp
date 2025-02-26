@@ -14,7 +14,7 @@
     <RepositoryUrl>https://github.com/resumecopilot-net/resume-copilot-lib-csharp</RepositoryUrl>
     <PackageProjectUrl>https://github.com/resumecopilot-net/resume-copilot-lib-csharp</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
-    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
 
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <IncludeSymbols>true</IncludeSymbols>
@@ -27,7 +27,7 @@
     <Copy SourceFiles="..\..\README.md" DestinationFiles="README.md" />
   </Target>
 
-  <PropertyGroup>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-  </PropertyGroup>  
+  <ItemGroup>
+    <None Include="..\..\README.md" Link="README.md" />
+  </ItemGroup>
 </Project>
