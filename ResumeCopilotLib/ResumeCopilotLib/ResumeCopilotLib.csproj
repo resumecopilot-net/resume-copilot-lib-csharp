@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -23,4 +22,12 @@
 
     <OutputPath>bin\Release</OutputPath>
   </PropertyGroup>
+
+  <Target Name="CopyReadme" BeforeTargets="Pack">
+    <Copy SourceFiles="..\..\README.md" DestinationFiles="README.md" />
+  </Target>
+
+  <PropertyGroup>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>  
 </Project>
